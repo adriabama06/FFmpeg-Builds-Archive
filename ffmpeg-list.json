@@ -1,0 +1,84 @@
+{
+    "versions": {
+        "8.0": {
+            "windows": {
+                "x64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/8.0/ffmpeg-n8.0-3-g08a81b090b-win64-gpl-8.0.zip",
+                "arm64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/8.0/ffmpeg-n8.0-3-g08a81b090b-winarm64-gpl-8.0.zip"
+            },
+            "linux": {
+                "x64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/8.0/ffmpeg-n8.0-3-g08a81b090b-linux64-gpl-8.0.tar.xz",
+                "arm64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/8.0/ffmpeg-n8.0-3-g08a81b090b-linuxarm64-gpl-8.0.tar.xz"
+            }
+        },
+        "7.1.1": {
+            "windows": {
+                "x64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/7.1.1/ffmpeg-n7.1.1-148-g8627b7c797-win64-gpl-7.1.zip",
+                "arm64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/7.1.1/ffmpeg-n7.1.1-148-g8627b7c797-winarm64-gpl-7.1.zip"
+            },
+            "linux": {
+                "x64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/7.1.1/ffmpeg-n7.1.1-148-g8627b7c797-linux64-gpl-7.1.tar.xz",
+                "arm64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/7.1.1/ffmpeg-n7.1.1-148-g8627b7c797-linuxarm64-gpl-7.1.tar.xz"
+            }
+        },
+        "7.1": {
+            "windows": {
+                "x64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/7.1/ffmpeg-n7.1-16-g15035aaec0-win64-gpl-7.1.zip",
+                "arm64": ""
+            },
+            "linux": {
+                "x64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/7.1/ffmpeg-n7.1-16-g15035aaec0-linux64-gpl-7.1.tar.xz",
+                "arm64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/7.1/ffmpeg-n7.1-16-g15035aaec0-linuxarm64-gpl-7.1.tar.xz"
+            }
+        },
+        "6.1.3": {
+            "windows": {
+                "x64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/6.1.3/ffmpeg-n6.1.3-win64-gpl-6.1.zip",
+                "arm64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/6.1.3/ffmpeg-n6.1.3-winarm64-gpl-6.1.zip"
+            },
+            "linux": {
+                "x64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/6.1.3/ffmpeg-n6.1.3-linux64-gpl-6.1.tar.xz",
+                "arm64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/6.1.3/ffmpeg-n6.1.3-linuxarm64-gpl-6.1.tar.xz"
+            }
+        },
+        "6.1.2": {
+            "windows": {
+                "x64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/6.1.2/ffmpeg-n6.1.2-27-ge16ff06adb-win64-gpl-6.1.zip",
+                "arm64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/6.1.2/ffmpeg-n6.1.2-27-ge16ff06adb-winarm64-gpl-6.1.zip"
+            },
+            "linux": {
+                "x64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/6.1.2/ffmpeg-n6.1.2-27-ge16ff06adb-linux64-gpl-6.1.tar.xz",
+                "arm64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/6.1.2/ffmpeg-n6.1.2-27-ge16ff06adb-linuxarm64-gpl-6.1.tar.xz"
+            }
+        },
+        "6.0": {
+            "windows": {
+                "x64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/6.0/ffmpeg-n6.0-162-g07e3223dd0-win64-gpl-6.0.zip",
+                "arm64": ""
+            },
+            "linux": {
+                "x64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/6.0/ffmpeg-n6.0-162-g07e3223dd0-linux64-gpl-6.0.tar.xz",
+                "arm64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/6.0/ffmpeg-n6.0-162-g07e3223dd0-linuxarm64-gpl-6.0.tar.xz"
+            }
+        },
+        "5.1.3": {
+            "windows": {
+                "x64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/5.1.3/ffmpeg-n5.1.3-105-g7739dabb89-win64-gpl-5.1.zip",
+                "arm64": ""
+            },
+            "linux": {
+                "x64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/5.1.3/ffmpeg-n5.1.3-105-g7739dabb89-linux64-gpl-5.1.tar.xz",
+                "arm64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/5.1.3/ffmpeg-n5.1.3-105-g7739dabb89-linuxarm64-gpl-5.1.tar.xz"
+            }
+        },
+        "4.4.4": {
+            "windows": {
+                "x64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/4.4.4/ffmpeg-n4.4.4-6-gd5fa6e3a91-win64-gpl-4.4.zip",
+                "arm64": ""
+            },
+            "linux": {
+                "x64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/4.4.4/ffmpeg-n4.4.4-6-gd5fa6e3a91-linux64-gpl-4.4.tar.xz",
+                "arm64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/4.4.4/ffmpeg-n4.4.4-6-gd5fa6e3a91-linuxarm64-gpl-4.4.tar.xz"
+            }
+        }
+    }
+}
