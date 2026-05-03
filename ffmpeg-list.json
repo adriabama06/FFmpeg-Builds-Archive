@@ -1,5 +1,15 @@
 {
     "versions": {
+        "8.1": {
+            "windows": {
+                "x64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/8.1/ffmpeg-n8.1-latest-win64-gpl-8.1.zip",
+                "arm64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/8.1/ffmpeg-n8.1-latest-winarm64-gpl-8.1.zip"
+            },
+            "linux": {
+                "x64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/8.1/ffmpeg-n8.1-latest-linux64-gpl-8.1.tar.xz",
+                "arm64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/8.1/ffmpeg-n8.1-latest-linuxarm64-gpl-8.1.tar.xz"
+            }
+        },
         "8.0": {
             "windows": {
                 "x64": "https://github.com/adriabama06/FFmpeg-Builds-Archive/raw/refs/heads/main/8.0/ffmpeg-n8.0-3-g08a81b090b-win64-gpl-8.0.zip",
