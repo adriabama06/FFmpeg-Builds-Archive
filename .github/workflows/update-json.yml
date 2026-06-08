@@ -1,0 +1,38 @@
+name: Update JSON on Release
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run generate_json.js
+        run: node generate_json.js
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ffmpeg-list.json ffmpeg-list-humanized.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update ffmpeg version list [skip ci]"
+            git push
+          else
+            echo "No changes to commit"
+          fi
