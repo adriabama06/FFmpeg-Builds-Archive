@@ -26,7 +26,6 @@ for (const version of versions) {
 
     for (const file of files) {
         if(!result[version][get_os(file)]) result[version][get_os(file)] = {};
-        if(!result[version][get_os(file)][get_arch(file)]) result[version][get_os(file)][get_arch(file)] = {};
 
         result[version][get_os(file)][get_arch(file)] = BASE_URL + `${version}/${file}`;
     }
