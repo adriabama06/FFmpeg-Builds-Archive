@@ -33,7 +33,7 @@ jobs:
           git add ffmpeg-list.json ffmpeg-list-humanized.json
           if ! git diff --cached --quiet; then
             git commit -m "chore: update ffmpeg version list [skip ci]"
-            git push origin ${{ github.event.repository.default_branch }}
+            git push origin HEAD:${{ github.event.repository.default_branch }}
           else
             echo "No changes to commit"
           fi
